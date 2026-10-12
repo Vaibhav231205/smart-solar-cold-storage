@@ -1,0 +1,17 @@
+{
+  "name": "harvest-guard-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Harvest Guard — matches the existing frontend's api/endpoints.js contract exactly.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "simulate": "node src/simulate-device.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

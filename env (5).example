@@ -1,0 +1,8 @@
+# Backend URL for production builds (required when deploying without a local Vite proxy).
+# Leave unset for local dev — Vite proxies /api to http://localhost:5000 instead.
+#
+# GitHub Pages: only set this after you deploy a backend, e.g.
+# VITE_API_BASE_URL=https://your-backend.example.com/api
+#
+# If unset in production, the dashboard runs in standby mode with no API calls.
+VITE_API_BASE_URL=
